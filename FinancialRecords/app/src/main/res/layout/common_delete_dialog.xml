@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="48dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/common_delete_dialog_tx"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+		android:text="@string/delete"
+    	android:layout_marginLeft="16dp"
+    	android:layout_marginRight="16dp"
+    	android:gravity="center"
+        android:textSize="14sp" />
+
+</LinearLayout>

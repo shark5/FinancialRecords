@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">理财记录</string>
+    <string name="action_settings">设置</string>
+    <string name="add_new_records">添加</string>
+    <string name="update_data">更新数据</string>
+
+    <string name="title_activity_add_records">添加项目</string>
+    <string name="invest_type">投资类型:</string>
+    <string name="invest_name">投资名称:</string>
+    <string name="invest_amount">投资金额:</string>
+    <string name="invest_date">投资日期:</string>
+    <string name="invest_detail">投资明细</string>
+    <string name="title_activity_setting">设置</string>
+
+    <string name="amount_a">金额:</string>
+    <string name="date">日期:</string>
+
+    <string name="invest_type_manager">投资类型管理</string>
+    <string name="title_activity_invest_type_manager">投资类型管理</string>
+    <string name="add">添加</string>
+    <string name="add_invest_type_manager">添加投资类型</string>
+    <string name="add_data">添加数据</string>
+
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="back_up">备份数据库</string>
+    <string name="recover">还原数据库</string>
+
+    <string name="pls_go_to_settings_to_add_type">请到设置里面添加投资类型</string>
+    <string name="pls_input_all_info">请完善信息</string>
+    <string name="add_success">添加成功</string>
+
+
+    <string name="name">名称</string>
+    <string name="amount">本金</string>
+    <string name="total_cash">现金</string>
+    <string name="profit">收益</string>
+    <string name="increase">涨幅</string>
+    <string name="date_time">投资日期</string>
+    <string name="title_activity_project_detail_add">ProjectDetailAddActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="delete">删除</string>
+    <string name="total_amount_1">总计</string>
+
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+</resources>

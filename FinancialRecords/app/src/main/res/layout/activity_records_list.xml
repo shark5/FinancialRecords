@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".RecordsListActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/project_list_item"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/list_separator"
+        />
+    <ListView
+        android:id="@+id/rl_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        ></ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/list_separator"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TableLayout
+            android:id="@+id/rl_item_table_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="6">
+
+            <TableRow android:id="@+id/rl_item_row">
+
+                <TextView
+                    android:id="@+id/rl_total"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:text="@string/total_amount_1"
+                    android:gravity="center_vertical" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="48dp"
+                    android:background="@color/list_separator"
+                    />
+                <TextView
+                    android:id="@+id/rl_amount"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="48dp"
+                    android:background="@color/list_separator"
+                    />
+                <TextView
+                    android:id="@+id/rl_total_aAmount"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="48dp"
+                    android:background="@color/list_separator"
+                    />
+                <TextView
+                    android:id="@+id/rl_profit"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="48dp"
+                    android:background="@color/list_separator"
+                    />
+                <TextView
+                    android:id="@+id/rl_increase"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="48dp"
+                    android:background="@color/list_separator"
+                    />
+                <TextView
+                    android:id="@+id/rl_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center_vertical" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TableLayout
+        android:id="@+id/pl_item_table_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="4">
+
+        <TableRow android:id="@+id/pl_item_row">
+
+            <TextView
+                android:id="@+id/pd_item_time"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="48dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center_vertical" />
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="48dp"
+                android:background="@color/list_separator"
+                />
+            <TextView
+                android:id="@+id/pd_item_total_aAmount"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="48dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center_vertical" />
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="48dp"
+                android:background="@color/list_separator"
+                />
+            <TextView
+                android:id="@+id/pd_item_increase"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="48dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center_vertical" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
